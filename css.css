@@ -1,0 +1,28 @@
+/* Universal Selector */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Element Selector */
+body {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+.hero {
+    padding: 100px;
+}
+
+.hero__title {
+    color: black;
+}
+
+.hero__description {
+    color: #81da76;
+}
+/* ID Selector - only used to refer once but thats not the case now */
+#hero__highlight {
+    color: beige;
+}
+
