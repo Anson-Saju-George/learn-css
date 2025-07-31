@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
 <body>
@@ -69,6 +73,50 @@
         </div>
     </section>
 
+
+    <section class="element">
+        <div class="elements__left">
+            <div class="elements__placeholder"></div>
+        </div>
+        <div class="elements__right">
+            <h2 class="elements__title">Sign Up Today Now!</h2>
+            <p class="elements__description">Fill out the form below to get started.</p>
+            <form class="elements__form">
+                <h3>Your Interests:</h3>
+                <ul class="elements__list">
+                    <li class="elements__list-item">Web Design</li>
+                    <li class="elements__list-item">UI UX Design</li>
+                    <li class="elements__list-item">Digital Marketing</li>
+                </ul>
+                <div class="elements__form-group">
+                    <label for="Username" class="elements__label">Name:</label>
+                    <input type="text" id="username" placeholder="Enter username">
+                </div>
+                <div class="elements__form-group">
+                    <label for="email" class="elements__label">Email:</label>
+                    <input type="email" id="email" placeholder="Enter email">
+                </div>
+                <div class="elements__form-group">
+                    <label for="course" class="elements__label">Select Course:</label>
+                    <select id="course" class="elements__select">
+                        <option value="web-design">Web Design</option>
+                        <option value="ui-ux-design">UI UX Design</option>
+                        <option value="digital-marketing">Digital Marketing</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="elements__button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
     <section class="footer">
         <p class="footer__text">© 2023 Empowering Young Ones. All rights reserved.</p>
         <div class="footer__socials">
@@ -78,22 +126,7 @@
         </div>
     </section>
 
-    <section class="elements">
-        <div class="elements__left">
-            <div class="elements__placeholder"></div>
-        </div>
-        <div class="elements__right">
-            <h2 class="elements__title">Elements</h2>
-            <p class="elements__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dol
-            <form class="elements__form">
-                <h3>Your Interests:</h3>
-                <ul class="elements__list">
-                    <li class="elements__list-item">Web Design</li>
-                    <li class="elements__list-item">UI UX Design</li>
-                    <li class="elements__list-item">Digital Marketing</li>
-                </ul>
-            </form>
-            </div>
-    </section>
+
+
 </body>
 </html>
