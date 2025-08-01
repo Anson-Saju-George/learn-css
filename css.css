@@ -281,8 +281,33 @@ button {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    text-align: center;
+    align-content: center;
 }
 
+.feature__container {
+    flex-basis: 50%;
+
+}
+
+.feature__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cta__title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #134e0d;
+}
+
+.cta__button--primary:hover {
+    background-color: #4a9f5c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
 
