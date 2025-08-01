@@ -261,10 +261,6 @@ button {
     font-weight: 500;
     transition: background-color 0.3s ease, bor;
     margin: 10px 0;
-    -webkit-transition: background-color 0.3s ease, bor;
-    -moz-transition: background-color 0.3s ease, bor;
-    -ms-transition: background-color 0.3s ease, bor;
-    -o-transition: background-color 0.3s ease, bor;
 }
 
 .elements__button:hover {
@@ -302,12 +298,70 @@ button {
     color: #134e0d;
 }
 
+.cta__button--primary {
+    background-color: wh;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 .cta__button--primary:hover {
     background-color: #4a9f5c;
     color: white;
     border-radius: 5px;
     cursor: pointer;
 }
+
+.video__button--primary {
+    background-color: #5cc473;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.video__button--primary:hover {
+    background-color: #4a9f5c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+.video__button--secondary {
+    background-color: #5cc473;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.video__button--secondary:hover {
+    background-color: #4a9f5c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
 
 
 
