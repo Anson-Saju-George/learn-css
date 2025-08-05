@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../../home/ansonsajugeorge/Downloads/master-css-start-zipversion/start/app2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "app2"
+	}
+}
