@@ -195,6 +195,10 @@ button {
     height: 100%;
     background-color: #ccc;
     border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 
 .elements__list {
@@ -355,7 +359,53 @@ button {
 }
 
 
+.video__container {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    height: 700px;
+}
 
+.programs__card {
+    background: none;
+    padding: 0;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: rgba(92, 196, 115,0.5);
+}
+
+.programs__card h4 {
+    font-size: 0.8rem;
+    color: #134e0d;
+    margin-bottom: 10px;
+}
+.programs__card p {
+    font-size: 0.5rem;
+}
+
+.programs__card-image {
+    width: 100%;
+    height: 700px;
+    min-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.element__image {
+    min-width: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
 
 
 
